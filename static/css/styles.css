@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Shrikhand&display=swap');
+
+.page-margin-10 {
+    margin: 3% 10%;
+}
+
+.page-margin-30 {
+    margin: 3% 30%;
+}
+
+.forecast-flex {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    text-align: right !important;
+}
+
+a, a.active, a.hover {
+    color: #4d4d4d;
+    text-decoration-color: #4d4d4d;
+}
+
+span.word {
+    position: relative;
+}
+
+span.word:after {
+    background-color: #ffe359;
+    content: " ";
+    height: 30%;
+    position: absolute;
+    left: 0;
+    margin-left: -1rem;
+    top: 50%;
+    width: calc(100% + 2rem);
+    z-index: -1;
+}
+
+h1 {
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 3rem;
+    font-kerning: none;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+::placeholder, .gray {
+    color: #4d4d4d
+}
+
+.gray {
+    font-weight: 400;
+}
